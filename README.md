@@ -11,6 +11,7 @@
 - **주요 데이터:** 전국 지하수 기초조사 원시자료
 - **제공 기관:** [국가지하수정보센터(GIMS)](http://www.gims.go.kr/)
 - **참고:** 데이터 원본 파일은 용량 및 저작권 문제로 본 리포지토리에 포함하지 않았습니다.
+<img width="864" height="515" alt="image" src="https://github.com/user-attachments/assets/dd3ee474-7bda-428c-b31b-12345ecbf7fd" />
 
 ## 3. 분석 파이프라인
 
@@ -25,13 +26,14 @@
 
 ### 4.1. 고위험 지역 TCE 농도 변화 추이
 
-![고위험 지역 TCE 농도 변화](tce_trend_high_risk.png)
+<img width="1170" height="623" alt="image" src="https://github.com/user-attachments/assets/9242b3d4-3a86-4ea2-8cdb-be0fd32ebbfd" />
+
 
 > 고위험 지역의 TCE 평균 농도는 특정 연도에 급등하는 패턴을 보이며, 지속적인 관리가 필요함을 시사합니다.
 
 ### 4.2. TCE 예측 모델의 특성 중요도
 
-![TCE 예측 모델 특성 중요도](feature_importance.png)
+<img width="1021" height="866" alt="image" src="https://github.com/user-attachments/assets/74207d9e-207f-4879-b453-2988edb608c8" />
 
 > 모델 분석 결과, '과거 TCE 농도(TCE_lag1, TCE_ma3)'가 미래 오염 예측에 가장 큰 영향을 미치는 것으로 나타났습니다. 이는 오염의 지속성과 과거 이력의 중요성을 증명합니다. 또한 '월', '연도'와 같은 시간적 요인과 'pH', 'EC' 등 다른 수질 인자도 유의미한 예측 변수임이 확인되었습니다.
 
