@@ -27,6 +27,9 @@
 
 ## 4. 주요 분석 결과
 
+<img width="864" height="515" alt="map" src="https://github.com/user-attachments/assets/f6d3c5ee-7f7b-4b6f-af18-5c87de3f05e9" />
+
+
 ### 4.1. 고위험 지역 TCE 농도 변화 추이
 
 ![고위험 지역 TCE 농도 변화](tce_trend_high_risk.png)
